@@ -337,12 +337,12 @@ ul.site-menu-main .nav-item:hover i {
 }
 
 .testimonial-block .testimonial-block_user .testimonial-block_user_image img {
-    height: 170px;
-    width: 170px;
-    border: 7px solid #FFDFB8;
-    border-radius: 170px;
-    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  height: 170px;
+  width: 170px;
+  border: 7px solid #e2e1fa;
+  border-radius: 170px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial-block .testimonial-block_user .testimonial-block_user_info .testimonial-block_user_info_name {
@@ -1093,3 +1093,31 @@ ul.breadcrumbs li.active{
 }
 
 
+
+
+/* new css 2024 */
+.brand-logo img {
+  height: 100%;
+  width: 100%;
+  max-width: 100px;
+}
+.footer-logo img{
+  height: 100%;
+  width: 100%;
+  max-width: 100px;
+}
+.icon img {
+  height: 100%;
+  width: 100%;
+  max-width: 100px;
+}
+.icon img {
+  height: 100%;
+  width: 100%;
+  max-width: 45px;
+}
+img.icon1 {
+  height: 100%;
+  width: 100%;
+  max-width: 40px;
+}
