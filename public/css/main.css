@@ -192,10 +192,10 @@ ul.site-menu-main .nav-item:hover i {
   margin-bottom: 20px;
 }
 
-.check-input-control input:checked ~ .checkbox {
+/* .check-input-control input:checked ~ .checkbox {
   background: #1787FC !important;
   border-color: #1787FC;
-}
+} */
 
 .check-input-control input:checked ~ .checkbox::after {
   content: "\f00c";
@@ -374,13 +374,14 @@ ul.site-menu-main .nav-item:hover i {
 .banner-content img {
     width: 100%;
 }
-.hero-area-l8.background-property{
-  background: #97e3f1; /* Old browsers */
-  background: -moz-linear-gradient(top, #97e3f1 0%, #446ca0 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #97e3f1 0%,#446ca0 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #97e3f1 0%,#446ca0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* .hero-area-l8.background-property{
+  background: #97e3f1; 
+  background: -moz-linear-gradient(top, #97e3f1 0%, #446ca0 100%); 
+  background: -webkit-linear-gradient(top, #97e3f1 0%,#446ca0 100%); 
+  background: linear-gradient(to bottom, #97e3f1 0%,#446ca0 100%); 
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#97e3f1', endColorstr='#446ca0',GradientType=0 );
-}
+} */
+
 .hero-area-l8:after {
   position: absolute;
   content: '';
@@ -789,12 +790,19 @@ section#ui-vedica {
     color: #eb5b3c;
     margin: 0 4px;
 }
-section#ui-vedica .ui-box {
+/* section#ui-vedica .ui-box {
     width: 80%;
     margin: 0 auto;
     background: rgb(243 103 57 / 22%);
     padding: 50px 50px 0px 50px;
     border-radius: 41px;
+} */
+section#ui-vedica .ui-box {
+  width: 80%;
+  margin: 0 auto;
+  background: #c5c2ef;
+  padding: 50px 50px 0px 50px;
+  border-radius: 41px;
 }
 .ui-content {
     padding-top: 50px;
